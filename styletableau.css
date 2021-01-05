@@ -1,0 +1,33 @@
+body
+{
+    background-color: #FFE5FE;
+    font-family: monospace;
+    
+}
+td
+{
+    background-color: #FD8087;
+    border-style: solid;
+    padding:0.5em;
+    
+}
+table
+{
+    
+    border-collapse:collapse;
+}
+caption
+{
+   background-color: gainsboro; 
+    
+}
+th
+{
+   background-color:cadetblue;
+}
+.nondispo
+{
+   background-color:red;
+   font-weight : bold;
+    text-align: center;
+}

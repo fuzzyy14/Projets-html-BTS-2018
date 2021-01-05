@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html> <!--on dit que cette partie sera en html -->
+    <head> <!-- ouverture de l'entête de la page -->
+        <meta charset="utf-8" /> <!-- le format des caractères est l'utf8 -->
+        <link rel="stylesheet" href="styleformulaire.css" />
+        <title> Formulaire </title> <!-- titre de la page -->
+    </head><!-- fermeture de l'entête de la page -->
+
+<body>
+    
+    <form>
+        <br><br>
+        <label for="prénom">Prénom :</label><input type="text" name="prénom" id = "prénom" size="20" maxlength="20" placeholder="entrez votre nom ici" required><br><br>
+        
+        <label>Mot de Passe : </label><input type="password" name ="mdp" id="mdp" size="20" placeholder="entrez le mot de passe ici" maxlength="50" required><br><br>
+        
+        <label>Pourquoi voulez-vous postuler chez nous ?</label><br>
+        <textarea placeholder="raison"></textarea><br><br>
+        
+        <label>Email : </label><input type="email" name="email" id="email" size="20" maxlength="50" placeholder="exemple@1234.com" required><br><br>
+        
+        <label>Site : </label><input type="url" size="20" name="site" id="site" placeholder="http://www.monsite.com"><br><br>
+        
+        <label>Numéro de téléphone : </label><input type="tel" maxlength="10" size="10" name="tel" id="tel" placeholder="0123456789" required><br><br>
+        
+        <label>Couleur préférée : </label><input type="color" id="color" name="color"><br><br>
+        
+        <label>Âge mental : </label><input type="number" max="100" min="0"><br><br>
+        
+        <label>Motivation à intégrer la formation : </label><input type="range" ><br><br>
+        
+        <label>Date de Naissance : </label><input type="date" name="dateN" id="dateN" min="1900-01-01" max="2020-01-01" required><br><br>
+        
+        <label>Recherche</label><input type="search" size="20" name="recherche" id="recherche"><br><br>
+        
+        <label>Cochez les consoles de jeux que vous avez : </label><br><br>
+        <input type="checkbox"><label>XBOX 360</label><br>
+        <input type="checkbox"><label>PS3</label><br>
+        <input type="checkbox"><label>Nintendo Switch</label><br>
+        <input type="checkbox"><label>XBOX One</label><br>
+        <input type="checkbox"><label>PC</label><br>
+        <input type="checkbox"><label>Autre (Précisez)</label><br>
+        <input type="text" size="20" maxlength="100"><br><br>
+        
+        <label>Combien de temps passez vous devant votre ordinateur & Console par jours ?</label><br>
+        
+        <input type="radio" name="tempsPC"><label>Moins de 15 minutes</label><br>
+        <input type="radio" name="tempsPC"><label>Entre 15 minutes et 1 heure</label><br>
+        <input type="radio" name="tempsPC"><label>Entre 1 et 2 heures</label><br>
+        <input type="radio" name="tempsPC"><label>Entre 2 et 5 heures</label><br>
+        <input type="radio" name="tempsPC"><label>Plus de 5 heures</label><br>
+        <input type="radio" name="tempsPC"><label>ITS OVER 9000!!!!!!</label><br><br>
+        
+        <input type="submit" value="Envoyer le Questionnaire" class="bouton">
+    </form>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

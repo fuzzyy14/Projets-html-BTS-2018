@@ -1,0 +1,65 @@
+body
+{
+    background-color: #C9FDF5;
+    font-family: monospace;
+    
+}
+h2
+{
+   font-size: 2.5em;
+   text-decoration:underline;
+    
+}
+
+ul
+{
+    font-size: 1.3em;
+    
+}
+
+.monimage
+{
+    
+    text-align: center;
+}
+.separateurs
+{
+    text-align: center;
+    font-size : 1.2em;
+    font-weight : bold;
+}
+.infos
+{
+ margin-left:inherit; 
+}
+a
+{
+    text-decoration: none;
+    color:black;
+    
+}
+a:hover
+{
+    
+    font-weight : bold;
+    
+}
+a:visited
+{
+   color:darkorchid;
+}
+h3
+{
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    background-color: coral;
+}
+.comp
+{
+    margin-left:inherit;
+}
+.dipl
+{
+    margin-left:inherit;
+}
